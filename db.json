@@ -1,0 +1,106 @@
+{
+  "user": [
+    {
+      "id": "Aafrin",
+      "name": "Aafrin",
+      "password": "Aafrin",
+      "email": "aa@gmail.com",
+      "phone": "678976543",
+      "country": "",
+      "address": "ssss"
+    },
+    {
+      "id": "test",
+      "name": "test",
+      "password": "test",
+      "email": "test@gmail.com",
+      "phone": "890765436",
+      "role": "admin",
+      "address": "oknjh"
+    },
+    {
+      "id": "test1",
+      "name": "test1",
+      "password": "test1",
+      "email": "test@gmail.com",
+      "phone": "987654345",
+      "role": "user",
+      "address": "hopp"
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "phone": "7867543321",
+      "role": "admin",
+      "address": "hello"
+    },
+    {
+      "id": "user",
+      "name": "user",
+      "password": "user",
+      "email": "user@gmail.com",
+      "phone": "7865431234",
+      "role": "user",
+      "address": "hello"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": false
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Chris",
+      "email": "chris@in.com"
+    },
+    {
+      "code": 2,
+      "name": "Lynn",
+      "email": "lynn@in.com"
+    },
+    {
+      "code": 3,
+      "name": "Tim",
+      "email": "tim@in.com"
+    },
+    {
+      "code": 4,
+      "name": "Southee",
+      "email": "southee@in.com"
+    },
+    {
+      "code": 5,
+      "name": "boult",
+      "email": "bould@in.com"
+    }
+  ]
+}
